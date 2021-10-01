@@ -1,73 +1,79 @@
-Frontend Part only
-live demo: https://radiant-sea-41759.herokuapp.com/
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beginner friendly project to help you in open source contributions. An attempt to bring all together. 
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The goal of this project is to help the beginners with their contributions in Open Source and bring all the possible Frontend (UI) knowledge all together. We aim to achieve this collaboratively, so feel free to contribute in any way you want, just make sure to follow the contribution guidelines.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What is Open - Source? [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+The open source community provides a great opportunity for aspiring programmers to distinguish themselves; and by contributing to various projects, developers can improve their skills and get inspiration and support from like-minded people. When you contribute to something you already know and love, it can have so much more meaning, because you know how the tool is used and the good it does for you. Being part of an open source community opens you up to a broader range of people to interact with. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Read more about it <a href="https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source"> here. </a>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <u> Let's Get Started: </u>
 
-### `npm run build`
+### Step 1. Create a Copy of this Repository
+In order to work on an open-source project, you will first need to make your own copy of the repository. To do this, you should fork the repository and then clone it so that you have a local working copy.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **Fork :fork_and_knife: this repo. Click on the Fork button at the top right corner.**
+With the repository forked, you’re ready to clone it so that you have a local working copy of the code base.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> **Clone the Repository**
+To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.
 
-### `npm run eject`
+We’ll use the git clone command along with the URL that points to your fork of the repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Open the Command Prompt
+* Type this command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone https://github.com/your_username/Go-Airbnb
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Step 2: Creating a New Branch
+It is important to branch the repository so that you are able to manage the workflow, isolate your code, and control what features make it back to the main branch of the project repository.
 
-## Learn More
+When creating a branch, it is very important that you create your new branch off of the master branch. 
+**To create a new branch, from your terminal window, follow:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git branch new-branch
+git checkout new-branch
+```
+Once you enter the git checkout command, you will receive the following output:
 
-### Code Splitting
+```
+Switched to branch 'new-branch'
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Step 3: Contribute
+Make relevant changes. Add new algorithms. Add Readme files. Contribute in any way you feel like :)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Step 4: Commiting and Pushing:
+Once you have modified an existing file or added a new file to the project, you can add it to your local repository, which we can do with the git add command.
 
-### Making a Progressive Web App
+``` git add filename``` or ``` git add .``` 
+You can type the command ```git add -A``` or alternatively ```git add -all``` for all new files to be staged.
+**With our file staged, we’ll want to record the changes that we made to the repository with the ```git commit``` command.**
+<p> The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is.  </p>
+ 
+ ```
+ git commit -m "commit message"
+ ```
+ 
+ 
+ At this point you can use the ```git push``` command to push the changes to the current branch of your forked repository:
+ ```
+ git push --set-upstream origin new-branch
+ ```
+ 
+### Step 6: Create Pull Request
+At this point, you are ready to make a pull request to the original repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
