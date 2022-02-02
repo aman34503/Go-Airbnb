@@ -1,6 +1,7 @@
 
 
 A beginner friendly project to help you in open source contributions. An attempt to bring all together. 
+@jwoc
 
 ## Overview
 
