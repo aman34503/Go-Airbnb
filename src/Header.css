@@ -4,7 +4,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: rgb(252, 224, 224);
     z-index: 100;
     width: 100%;
   }
@@ -30,13 +30,27 @@
     border: none;
     padding: 10px;
     outline-width: 0;
+    background-color: rgb(252, 224, 224);
+    font-weight: bold;
     /* width: 250px; */
   }
-  
+
   .header__right {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 15vw;
-    margin-right: 80px;
+  }
+
+  .header__right > p{
+    margin-left: -70px;
+    margin-right: -25px;
+    font-weight: bold;
+    padding-right: -20px;
+  }
+
+  .icon{
+    border: 2px solid black;
+    margin-right: 25px;
+    border-radius: 100px;
   }

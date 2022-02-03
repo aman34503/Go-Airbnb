@@ -16,7 +16,7 @@ function Header() {
 			/>
 
 			<div className="header__center">
-				<input type="text" />
+				<input type="text" placeholder="Start your search"/>
 				<Button>
 					<SearchIcon />
 				</Button>
@@ -24,9 +24,10 @@ function Header() {
 
 			<div className="header__right">
 				<p>Become a host</p>
-				<LanguageIcon />
-				<ExpandMoreIcon />
+			    <LanguageIcon />
+				<div class="icon">
 				<Avatar />
+				</div>
 			</div>
 		</div>
 	);
