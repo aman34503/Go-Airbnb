@@ -4,9 +4,10 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: rgb(252, 224, 224);
+    background-color: white;
     z-index: 100;
     width: 100%;
+    height: 60px;
   }
   
   .header__icon {
@@ -30,9 +31,8 @@
     border: none;
     padding: 10px;
     outline-width: 0;
-    background-color: rgb(252, 224, 224);
+    background-color: white;
     font-weight: bold;
-    /* width: 250px; */
   }
 
   .header__right {
