@@ -89,7 +89,7 @@ Read more about it <a href="https://www.digitalocean.com/community/tutorial_seri
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
   
 ## Open Source programs this repo has been part of
-<a href="https://github.com/harshita2216/hello-jobs"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/aman34503/Go-Airbnb"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
 
 
 <div align="center">
@@ -110,9 +110,9 @@ Read more about it <a href="https://www.digitalocean.com/community/tutorial_seri
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Contribution Guidelines
-<a href="https://github.com/ExpressHermes/Primitive-Paint"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=royalblue"></a>
-<a href="https://github.com/harshita2216/hello-jobs"><img src="https://img.shields.io/github/contributors/harshita2216/hello-jobs?color=royalblue&style=flat-square"></a>
-<a href="https://github.com/harshita2216/hello-jobs"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?color=royalblue&style=flat-square"></a>
+<a href="https://github.com/aman34503/Go-Airbnb"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=royalblue"></a>
+<a href="https://github.com/aman34503/Go-Airbnb"><img src="https://img.shields.io/github/contributors/aman34503/Go-Airbnb?color=royalblue&style=flat-square"></a>
+<a href="https://github.com/aman34503/Go-Airbnb"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?color=royalblue&style=flat-square"></a>
 
 
 ### Step 1. 
@@ -188,9 +188,9 @@ At this point, you are ready to make a pull request to the original repository.
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Contributors
-<a href="https://github.com/harshita2216/hello-jobs"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
-<a href="https://github.com/harshita2216/hello-jobs"><img src="https://forthebadge.com/images/badges/built-with-love.svg"  ></a> 
-<a href="https://github.com/harshita2216/hello-jobs"><img src="https://forthebadge.com/images/badges/built-with-swag.svg" ></a>   
+<a href="https://github.com/aman34503/Go-Airbnb"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
+<a href="https://github.com/aman34503/Go-Airbnb"><img src="https://forthebadge.com/images/badges/built-with-love.svg"  ></a> 
+<a href="https://github.com/aman34503/Go-Airbnb"><img src="https://forthebadge.com/images/badges/built-with-swag.svg" ></a>   
 
 Thanks to all the **people who contribute**
 
