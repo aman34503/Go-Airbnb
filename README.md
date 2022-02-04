@@ -29,6 +29,7 @@
 
 <p align="center">
  <strong> A beginner friendly project to help you in open source contributions. An attempt to bring all together. @jwoc </strong>
+    <strong> Also Part of @Hacktoberfest'21 </strong>
     <br />
   <br />
     <strong> <a href="https://radiant-sea-41759.herokuapp.com/">Visit the Official Website » </strong></a> 
