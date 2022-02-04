@@ -2,9 +2,10 @@ import React from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { Avatar } from "@material-ui/core";
 import { Button } from "@material-ui/core";
+import { pink } from '@mui/material/colors';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+
 
 function Header() {
 	return (
@@ -16,7 +17,7 @@ function Header() {
 			/>
 
 			<div className="header__center">
-				<input type="text" />
+				<input type="text" placeholder="Start your search" />
 				<Button>
 					<SearchIcon />
 				</Button>
@@ -25,10 +26,10 @@ function Header() {
 			<div className="header__right">
 				<p>Become a host</p>
 				<LanguageIcon />
-				<ExpandMoreIcon />
-				<Avatar />
+				<AccountCircleIcon sx={{ color: pink[300], fontSize:40}} />
 			</div>
 		</div>
+
 	);
 }
 
