@@ -6,21 +6,17 @@ import Banner from './Banner';
 import Footer from './Footer'
 import SearchPage from './SearchPage'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import roundToNearestMinutes from 'date-fns/fp/roundToNearestMinutes';
 
 function App() {
   return (
-
-    // BEM
     <div className="app">
       <Router>
         <Header />
-        
         <Routes>
+          <Route path="/banner" element={<Banner/>}/>
           <Route path="/search" element={ <SearchPage />}/>
           <Route path="/" element={<Home/>}/>
         </Routes>
-        
         <Footer />
       </ Router>
     </div>
