@@ -4,28 +4,39 @@ import Home from './Home'
 import Header from './Header'
 import Footer from './Footer'
 import SearchPage from './SearchPage'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Settings from './Setting';
 
 function App() {
   return (
 
     // BEM
-    <div className="app">
-      <Router>
+
+
+    <Router>
+      <div className="app">
         <Header />
-        
+
         <Switch>
-          <Route path="/search">
-          <SearchPage />
+          <Route exact path="/search">
+            <SearchPage />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
+          <Route exact path="/settings">
+            <Settings />
+          </Route>
         </Switch>
-        
+
         <Footer />
-      </ Router>
-    </div>
+      </div>
+    </ Router>
+
   );
 }
 
