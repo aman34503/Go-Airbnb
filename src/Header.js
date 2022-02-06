@@ -1,10 +1,10 @@
 import React from "react";
-import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
 import { Button } from "@material-ui/core";
-import { pink } from '@mui/material/colors';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { Link } from "react-router-dom";
+import "./setting.css"
+import "./Header.css"
 
 
 function Header() {
@@ -26,8 +26,15 @@ function Header() {
 			<div className="header__right">
 				<p>Become a host</p>
 				<LanguageIcon />
-				<AccountCircleIcon sx={{ color: pink[300], fontSize:40}} />
+			
 			</div>
+			<Link className="link" to="/settings">
+            <img
+              className="topImg"
+              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+            />
+          </Link>
 		</div>
 
 	);
