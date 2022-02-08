@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 import Home from './Home'
 import Header from './Header'
+import Banner from './Banner';
 import Footer from './Footer'
 import SearchPage from './SearchPage'
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 import Settings from './Setting';
@@ -21,17 +22,17 @@ function App() {
       <div className="app">
         <Header />
 
-        <Switch>
-          <Route exact path="/search">
-            <SearchPage />
+        <Routes>
+          <Route exact path="/search" element={ <SearchPage />}>
+           
           </Route>
-          <Route exact path="/">
-            <Home />
+          <Route exact path="/" element={ <Home />}>
+           
           </Route>
-          <Route exact path="/settings">
-            <Settings />
+          <Route exact path="/settings" element={ <Settings />}>
+           
           </Route>
-        </Switch>
+        </Routes>
 
         <Footer />
       </div>
