@@ -1,22 +1,32 @@
 .banner {
-    background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg") center center;
-    height: 49vh;
-    position: relative;
+    /* background: url("../src/banner.jpg") center center;
+    height: 500px;
+    position: relative; */
+    background: rgba(0, 0, 0, 0.3) url("../src/banner.jpg");
+    height: 530px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
   }
   
   .banner__info {
     justify-content: space-between;
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0, 0.25); 
     color: white;
     padding-top: 15.8vh;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    width: 300px;
-    height: 105px;
-    margin: auto;
+    width: 520px;
+    height: 130px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     overflow-wrap: break-word;  
     align-items: center;
+    text-align: center;
+    border-radius: 10px;
   }
   
   .banner__search {
@@ -25,10 +35,18 @@
   }
   
   .banner__searchButton {
-    background-color: rgb(253, 253, 253) !important;
-    font-weight: 1000 !important;
+    /* background-color: rgb(253, 253, 253) !important; */
+    font-weight: 600 !important;
     text-transform: inherit !important;
-    color: #ff7779 !important;
+    /* color: #ff7779 !important; */
+    background-color: #ff7779;
+    color: white;
+    margin-right: -10px;
+  }
+
+  .banner__searchButton:hover {
+    background-color: white;
+    color: #ff7779;
   }
   
   .banner__info > button {
@@ -37,8 +55,8 @@
     text-transform: inherit;
     justify-content: space-around;
     font-weight: 600;
-    margin-top: 20px;
-    margin-left: 80px;
+    margin-top: 40px;
+    margin-right: 15px;
     border-radius: 20px;
   }
   
@@ -52,9 +70,13 @@
       font-size: 15px;
       align-items: center;
       text-align: center;
+      font-weight: 400;
+      letter-spacing: 0.75px;
   }
 
   .banner__info > h1{
     margin-top: -62px;
     text-align: center;
+    text-shadow: 3px 2px #000;
+    font-size: 40px;
   }
