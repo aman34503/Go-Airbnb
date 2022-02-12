@@ -1,4 +1,14 @@
 .home__section {
     display: flex;
-    padding: 30px;
+    padding: 10px;
   }
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .home__section {
+    display: flex;
+    flex-direction: column;
+   flex: 6;
+  }
+
+}
