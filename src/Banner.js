@@ -11,11 +11,11 @@ function Banner() {
     return (
         <div className='banner'>
             <div className='banner__search'>
-                {showSearch && <Search />}
+                {/* {showSearch && <Search />}
 
                 <Button onClick={() => setShowSearch(!showSearch)} className='banner__searchButton' variant='outlined'>
                     {showSearch ? "Hide" : "Search Dates"}
-                </Button>
+                </Button> */}
             </div>
             <div className='banner__info'>
                 <h1>Get out and stretch your imagination</h1>
@@ -23,6 +23,10 @@ function Banner() {
                     Plan a different kind of getaway to uncover the hidden gems near you.
                 </h5>
                 <Button onClick={() => history.push('/search')} variant='outlined'>Explore Nearby</Button>
+                {showSearch && <Search />}
+                <Button onClick={() => setShowSearch(!showSearch)} className='banner__searchButton' variant='outlined'>
+                    {showSearch ? "Hide" : "Search Dates"}
+                </Button>
             </div>
         </div>
     )
