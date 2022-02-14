@@ -10,22 +10,24 @@ import {
   Route,
 } from "react-router-dom";
 import Settings from './Setting';
+import Login from './login';
 
 function App() {
   return (
 
     // BEM
 
-
     <Router>
       <div className="app">
-        <Header />
-
+      <Header />
         <Switch>
           <Route exact path="/search">
             <SearchPage />
           </Route>
           <Route exact path="/">
+            <Login />
+          </Route>
+          <Route exact path="/home">
             <Home />
           </Route>
           <Route exact path="/settings">
