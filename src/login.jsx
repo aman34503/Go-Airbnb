@@ -29,7 +29,7 @@ export default function Login() {
 			<div className="overlay">
 				<div className="overlay-panel overlay-right">
 					{/* <h1 className='hr1'>Don't have account?</h1>
-					<p className='p1'>Please Sign In</p> */}
+					<p className='p1'>Please Sign In</p> yo*/}
 					<img className='signinimg' src={login} alt="logo" />
 				</div>
 			</div>
