@@ -1,9 +1,11 @@
 .home__section {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
+    justify-content: center;
   }
 
-/* For Mobile Phones Portrait or Landscape View */
+/* For Mobile Phones Portrait or Landscape View
 @media screen and (max-device-width: 640px) {
   .home__section {
     display: flex;
@@ -11,4 +13,4 @@
    flex: 6;
   }
 
-}
+}*/
