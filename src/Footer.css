@@ -20,6 +20,7 @@ p.copyright {
   }
   
   footer {
+    width: auto;
     font-size: 16px;
     background: var(--footer-bg);
     padding: 2em 4em;
