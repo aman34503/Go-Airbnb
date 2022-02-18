@@ -32,7 +32,6 @@
       flex-direction: column;
   }
   
-  /*This needs to be deleted*/
   .banner__searchButton {
     /* background-color: rgb(253, 253, 253) !important; */
     font-weight: 600 !important;
@@ -42,7 +41,6 @@
     color: white;
     margin-right: -10px;
   }
-  /*-------------*/
 
   .banner__searchButton:hover {
     background-color: white;
