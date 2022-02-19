@@ -27,6 +27,7 @@ p.copyright {
     display: flex;
     align-items: start;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1em;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -39,6 +40,8 @@ p.copyright {
   
   .col {
     flex: 1;
+    text-align: center;
+    padding: 0 20px 10px 20px;
   }
   
   .col-title {
@@ -46,7 +49,10 @@ p.copyright {
     font-size: 1.5em;
     font-weight: 500;
     padding: 0.8em 0;
-    padding-left: 2.4rem;
+  }
+
+  .col-list ul{
+    padding: 0px;
   }
   
   .col-list a {
@@ -70,6 +76,7 @@ p.copyright {
     display: flex;
     gap: 0.5em;
     padding: 0.5em 0;
+    text-align: center;
   }
   
   .subscribe-input {
@@ -131,6 +138,7 @@ p.copyright {
     display: flex;
     gap: 0.5rem;
     padding-left: 0%;
+    justify-content: center;
   }
   
   .social-media-list a {
@@ -151,12 +159,5 @@ p.copyright {
     width: 1.5em;
     height: 1.5em;
     transition: all 0.25s ease 0s;
-  }
-  
-  @media screen and (max-width: 750px) {
-    footer {
-      padding: 2em;
-      flex-direction: column;
-    }
   }
   
