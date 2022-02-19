@@ -3,5 +3,11 @@
 }
 
 .app{
-    width: fit-content;
+    width: auto;
 }
+
+@media (max-width: 650px){
+    .app{
+      width: fit-content;
+    }
+  }
