@@ -1,47 +1,102 @@
 .search {
     position: absolute;
-    top: 35px;
-    left: 25%;
-    width: 100vw;
+    top: 104px;
+    left: 90%;
+    transform: translate(-90%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.Dates{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.search > h2 {
+.people-count{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50%;
+    align-self: center;
+}
+
+/*.people-count > h2 {
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 559px;
     padding: 10px;
     background-color: white;
     position: absolute;
     left: 0;
-    top: 380px;
+}*/
+
+.number > span {
+    color: black;
+    font-size: 1.1rem;
 }
 
-.search > input {
-    width: 539px;
-    padding: 20px;
-    position: absolute;
-    left: 0;
-    height: 30px;
-    top: 420px;
+.peopleIcon{
+    color: black;
+}
+
+.number{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.submit{
+    background: black;
+}
+
+.submit > input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
     border: none;
-  }
-  
-.search > input:focus {
-    outline-width: 0;
 }
 
-.search > button {
-    position: absolute;
-    left: 0;
-    top: 480px;
+
+.submit > button {
     text-transform: inherit !important;
     background-color: #ff7779;
     color: white;
-    width: 579px;
-  }
+    width: 40%;
+    margin-right: 10px;
+}
 
-.search > button:hover {
+.submit > button:hover {
     background-color: white;
    color: #ff7779;
+}
+
+@media screen and (max-width: 700px){
+    .Range{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .search{
+        left: 100%;
+        transform: translate(-100%);
+    }
+    .people-count{
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .search{
+        transform: translate(-80%);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .search{
+        transform: translate(-65%);
+    }
 }

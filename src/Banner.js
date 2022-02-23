@@ -22,11 +22,12 @@ function Banner() {
                 <h5>
                     Plan a different kind of getaway to uncover the hidden gems near you.
                 </h5>
+                
                 <Button onClick={() => history.push('/search')} variant='outlined'>Explore Nearby</Button>
                 {showSearch && <Search />}
-                <Button onClick={() => setShowSearch(!showSearch)} className='banner__searchButton' variant='outlined'>
-                    {showSearch ? "Hide" : "Search Dates"}
-                </Button>
+                {showSearch ? <Button onClick={() => setShowSearch(!showSearch)} className='banner__searchButton1' variant='outlined'>Hide</Button>
+                :<Button onClick={() => setShowSearch(!showSearch)} className='banner__searchButton' variant='outlined'>Search Dates</Button>
+                }
             </div>
         </div>
     )

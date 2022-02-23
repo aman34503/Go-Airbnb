@@ -105,14 +105,11 @@
         font-size: 14px;
     }
 }
-
 @media screen and (max-width: 700px){
     .searchResult {
         grid-template-columns: 40% 60%;
     }
-
 }
-
 @media screen and (max-width: 450px){
     .searchResult {
         height: 28vh;
@@ -128,7 +125,6 @@
         height: 28vh
     }
 }
-
 @media screen and (max-height: 700px){
     .searchResult {
         height: 30vh;
