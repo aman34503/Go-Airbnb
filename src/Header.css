@@ -40,3 +40,9 @@
     width: 15vw;
     margin-right: 80px;
   }
+
+  @media (max-width: 480px){
+    .header{
+      width: 100%;
+    }
+  }

@@ -7,7 +7,7 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     padding-bottom: 40px;
   }
   
@@ -19,6 +19,7 @@
     width: 35%;
     height: auto;
     margin-top: 100px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     overflow-wrap: break-word;  
@@ -92,7 +93,7 @@
   @media (max-width: 750px){
     .banner__info{
       width: 40%;
-      padding: 9vh 30px 30px 30px; 
+      padding: 14vh 30px 30px 30px; 
     }
     .banner__info > button{
       margin-top: 20px;
@@ -103,6 +104,19 @@
   @media (max-width: 520px){
     .banner__info{
       width: 45%;
-      padding: 9vh 30px 30px 30px; 
+      padding: 14vh 30px 30px 30px; 
     }
+  }
+
+  @media (max-width: 480px){
+    .banner{
+      width: 100%;
+      
+    }
+    .banner__info{
+      padding: 14vh 30px 30px 30px;
+      width: 50%;
+     
+    }
+    
   }
