@@ -42,6 +42,12 @@
     margin-right: -10px;
   }
 
+  .banner__searchButton1{
+    top: 0%;
+    background-color: #ff7779;
+    color: white;
+  }
+
   .banner__searchButton:hover {
     background-color: white;
     color: #ff7779;

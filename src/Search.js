@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import './Search.css';
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
-import { DateRangePicker } from "react-date-range";
+import { DateRange } from "react-date-range";
+import { DefinedRange } from 'react-date-range';
 import { Button } from "@material-ui/core";
 import PeopleIcon from "@material-ui/icons/People";
 import { useHistory } from "react-router-dom";
@@ -26,12 +27,23 @@ function Search() {
 
     return (
         <div className='search'>
-            <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
-            <h2>
-                Number of guests <PeopleIcon />
-            </h2>
-            <input min={0} defaultValue={2} type="number" />
-            <Button onClick={() => history.push('/search')}>Search Airbnb</Button>
+            <div className='Dates'>
+            <DateRange ranges={[selectionRange]} onChange={handleSelect} className = 'Calendar' />
+            <DefinedRange ranges={[selectionRange]} onChange={handleSelect} className = 'Range'/>
+            </div>
+
+            <div className='people-count'>
+                <div className='number'>
+                    <span>Number of guests</span>
+                    <PeopleIcon className='peopleIcon'/>
+                </div>
+
+                <div className='submit'>
+                    <input min={0} defaultValue={2} type="number" />
+                    <Button onClick={() => history.push('/search')}>Search Airbnb</Button>
+                </div>
+            </div>
+
         </div>
     )
 }
