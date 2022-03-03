@@ -48,6 +48,7 @@
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
 	margin-top: 10px;
+	
 }
 
 .loginform {
@@ -60,7 +61,10 @@
 	height: 100%;
 	text-align: center;
 }
-
+.social:hover{
+	background-color: black;
+	color: white;
+}
 .logininput {
 	background-color: #eee;
 	border: none;
