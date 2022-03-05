@@ -14,7 +14,7 @@
  
 .hr1 {
 	font-weight: bold;
-	margin-top: 0;
+	margin: 0;
 }
 
 .p1 {
@@ -23,8 +23,6 @@
 	line-height: 20px;
 	letter-spacing: 0.5px;
 	margin: 20px 0 30px;
-	background-color: #FF416C;
-	color: #eee;
 }
 
 .loginspan {
@@ -45,7 +43,7 @@
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
-	padding: 12px 30px;
+	padding: 12px 45px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
@@ -101,7 +99,7 @@
 
 
 .overlay {
-	background: #FF416C;
+	background: #bb133b;
 	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
 	background: linear-gradient(to right, #FF4B2B, #FF416C);
 	background-repeat: no-repeat;
