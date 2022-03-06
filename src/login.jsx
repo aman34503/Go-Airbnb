@@ -23,13 +23,15 @@ export default function Login() {
 				<Link to='/home' style={{textDecoration:'none'}}>
 				<button className='loginbutton' >Log In</button>
 				</Link>
+				<h5 className='hr1'> Don't have account? </h5>
+				<Link to='/Signup' >
+					<button className='p1'>Please Sign In</button> 
+				</Link>
 			</form>
 		</div>
 		<div className="overlay-container">
 			<div className="overlay">
 				<div className="overlay-panel overlay-right">
-					{/* <h1 className='hr1'>Don't have account?</h1>
-					<p className='p1'>Please Sign In</p> yo*/}
 					<img className='signinimg' src={login} alt="logo" />
 				</div>
 			</div>

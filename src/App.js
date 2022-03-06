@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import Settings from './Setting';
 import Login from './login';
+import Signup from './signup';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route exact path="/home">
             <Home />
+          </Route>
+          <Route exact path="/Signup">
+            <Signup />
           </Route>
           <Route exact path="/settings">
             <Settings />
