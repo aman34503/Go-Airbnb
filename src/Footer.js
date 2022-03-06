@@ -37,6 +37,7 @@ function Footer() {
     <nav class="col-list">
       <ul>
         <li><a href="#welcome_title">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
         <li><a href="#">Sustainability</a></li>
         <li><a href="#">Terms of Service</a></li>
         <li><a href="#">Privacy</a></li>

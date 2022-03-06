@@ -3,6 +3,7 @@ import React from 'react';
 import './Home.css';
 import Banner from './Banner'
 import Card from './Card'
+import Accordian  from './Accordian/Accordian';
 
 // ES7 snippets to do 'rfce'
 
@@ -65,6 +66,9 @@ function Home() {
             </div>
 
             <button>Explore more ▶ </button>
+            <br/>
+            <Accordian/>
+            <br/><br/>
             {/* <div className='home__section'>
             <Card
                 src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
