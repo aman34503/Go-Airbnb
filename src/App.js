@@ -12,6 +12,7 @@ import {
 import Settings from './Setting';
 import Login from './login';
 import Signup from './signup';
+import Faq from './faq';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route exact path="/settings">
             <Settings />
+          </Route>
+          <Route exact path="/faq">
+            <Faq />
           </Route>
         </Switch>
 

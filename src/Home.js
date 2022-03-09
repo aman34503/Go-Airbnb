@@ -67,7 +67,7 @@ function Home() {
 
             <button>Explore more ▶ </button>
             <br/>
-            <Accordian/>
+            
             <br/><br/>
             {/* <div className='home__section'>
             <Card
