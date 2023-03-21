@@ -30,13 +30,19 @@
 <p align="center">
  <strong> A beginner friendly project to help you in open source contributions. An attempt to bring all together. @jwoc </strong>
     <strong> Also Part of @Hacktoberfest'21 </strong>
+    
     <br />
+   
   <br />
     <strong> <a href="https://radiant-sea-41759.herokuapp.com/">Visit the Official Website » </strong></a> 
     <br />
     <a href="https://github.com/aman34503/Go-Airbnb/issues">Report Bug</a>
     ·
     <a href="https://github.com/aman34503/Go-Airbnb/issues">Request Feature</a>
+  </p>
+  <p>
+   An Airbnb clone web application would be a platform that allows users to find and book accommodations for their travel needs. The project would involve building a website that functions similarly to Airbnb, where users can search for listings based on their destination, check-in and check-out dates, number of guests, and other filters.
+The application would have two main user types: hosts and guests. Hosts would be able to create listings for their properties, including descriptions, photos, availability calendars, and pricing information. Guests would be able to search for and book listings, communicate with hosts, and leave reviews for their stays.
   </p>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
